@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Timestamp Microservice</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>URL Shortener</h1>
+            <p>By Joe McIlhargey | <a href="https://github.com/jmcilhargey/url-shortener.git" target="_blank">GitHub</a></p>
+            <form method="post" action="/">
+                <div class="input-group">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="submit">Shorten!</button>
+                    </span>
+                    <input type="text" class="form-control" name="entry" placeholder="Enter a URL">
+                </div>
+            </form>
+            <blockquote>
+                <ul>
+                    <li>Enter a URL into the input field to return a unique URL that will redirect to the original page</li>
+                    <li>The generated URL is saved to the database for future use</li>
+                    <li>The generated URL is saved to the database for future use</li>
+                </ul>
+            </blockquote>
+            
+            <h3>Example Input</h3>
+            <p>Computer Science at the Kahn Academy</p>
+            <code>https://www.khanacademy.org/computing/computer-science/cryptography</code><br>
+            <h3>Example Output</h3>
+            <code>https://url-service.herokuapp.com/fp8d</code><br>
+        </div>
+    </body>
+</html>
